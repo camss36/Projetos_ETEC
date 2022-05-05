@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULÁRIO</title>
+	<style type="text/css">
+		   * {
+		margin: 0;
+		padding: 0;
+		vertical-align: baseline;
+		}
+
+		html body {
+		background-color: ghostwhite;
+		}
+
+		body div {
+		display: block;
+		width: 90%;
+		height: 60px;
+		margin: 0 auto;
+		border: 1px dashed black;
+		}
+
+		div .fc   {
+		margin: 0 auto; 
+		}
+	</style>
+</head>
+<body>
+
+	<form action="https://postmail.invotes.com/send" method="post" id="email_form">
+
+
+
+    <!-- return urls can be fully qualified -OR-
+ start with / for root relative -OR-
+ start with . for url relative -->
+    <input type="hidden" name="success_url" value="." />
+    <input type="hidden" name="error_url" value=".?err=1" />
+    <div class="campo">
+        
+    <textarea name="text" placeholder="Message">Suas informações abaixo para o pedido:</textarea><br>
+    <input type="text" name="subject" placeholder="Insira aqui o nome do ingresso">
+    <input type="hidden" name="access_token" value="pfk6bk6fr1dv7fj72pizb6ck" />
+    </div>
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" name="extra_nome" id="nome">
+    </div>
+
+    <div class="campo">
+        <label for="sobrenome">Sobrenome</label>
+        <input type="text" name="extra_sobrenome" id="sobrenome">
+    </div>
+    <div class="campo">
+        <label for="email">Email</label>
+        <input type="email" name="extra_email" id="email">
+    </div>
+
+
+    <div class="campo">
+        <label for="sexo">Qual seu sexo</label>
+        <label>
+            <input type="radio" name="extra_sexo" value="feminino">Feminino
+        </label>
+        <label>
+            <input type="radio" name="extra_sexo" value="masculino">Maculino
+        </label>
+        <label>
+            <input type="radio" name="extra_sexo" value="prefiro não informar">Prefiro não informar
+        </label>
+    </div>
+
+    <div class="campo">
+        <label>Quantidade de ingressos</label>
+
+        <select id="função">
+            <option select disabled value="">Quantidade de ingressos</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+        </select>
+
+
+        <input id="submit_form" type="submit" value="Send" />
+</form>
+
+
+<script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+
+        setTimeout(function () {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script>
+
+
+</body>
+</html>

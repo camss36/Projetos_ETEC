@@ -1,0 +1,17 @@
+MINHA IDEIA 
+
+a ideia que penso para o site é fazer com as divisões dentro do menu como
+Entre em contato conosco
+Apresentações
+Escola de circo 
+
+todas essas segundas paginas que serão apresentações e escola de circo serão com menu tbm para voltar e navegar pelas outras pag, também quero fazer que o menu
+não seja com botões e sim com opções abaixo
+
+na primeira tela farei uma breve apresentação da companhia, e nas outras terão breve apresentações sobre os espetáculos já realizados
+
+usar tons com base no vermelho 
+
+na mahallo escola, irei mostrar as 3 mostra de alunos que fizemos até hoje e contar onde fica e os professores 
+
+ fazer botões na tela inicial como "para saber mais clique aqui"

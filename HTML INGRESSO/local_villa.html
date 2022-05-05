@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>VICTÓRIA VILLA</title>
+	<style type="text/css">
+		nav ul{
+		list-style: none;
+		padding: 0px;
+		position: relative;		
+    }
+
+    ul {
+    	background-color: #5ADB9B;
+    }
+
+	ul li{
+		display: inline-block;
+		font-family: Franklin Gothic;
+		font-size: 22px;
+	}
+
+	ul li a{
+		text-decoration: none;
+		padding: 20px;
+		color: black;
+
+	}
+
+     /*sub menu*/
+     ul ul{
+     	display: none;
+     	position: absolute;
+     	width: 150px;
+     }
+
+	ul li:hover ul{
+        display: block;
+	}
+
+	ul ul li{
+		display: block;
+	}
+
+	ul ul li a {
+		display: block;
+	}
+
+	ol {
+	list-style: none;
+    }
+
+	body {
+		background-image: url(fundo3.jpg);
+		background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;}
+
+	/*transição dos botões*/
+
+	ul ul li a {
+	    	color: black;
+            transition-duration: 1s}
+
+    ul ul li:hover a {background-color:#20DB8D;
+        color: white;}
+
+    ul li {color: black;
+            transition-duration: 1s }
+
+    ul li:hover{
+    	background-color:#1b3c40;
+        color: white;
+    }
+
+        /*legenda imagens*/
+    section {
+    	display: flex;
+    	justify-content: space-evenly;
+    	padding-top: 50px;
+    	padding-bottom: 50px;
+    	flex-wrap: wrap;
+    }
+
+    section figure {
+    	margin-bottom: 50px;
+    }
+
+    figure{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    }
+
+    figcaption {
+    	background-color: #5ADB9B;
+    	width: 300px;
+    	text-align: center;
+    	text-transform: uppercase;
+    	font-family: sans-serif;
+    	font-weight: 700;
+    	font-size: 18px;
+    	line-height: 2;
+    }
+
+    /*rodapé*/
+	 footer {
+	  text-align: center;
+	  background-color:#848a87;
+	  color: white;
+	  font-size: 12px;
+	  padding-top: 0px;
+	  line-height: 30px;
+	  margin-top: 80px;
+	}
+	</style>
+</head>
+<body>
+
+	<nav>
+			<ul>
+			<center><img  src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\logotipo.jpeg" width="200px"  height="100px" ></center>
+			
+			<li><a href="index.html">HOME</a></li>
+			
+				<li><a href="">MODALIDADES</a>
+					<ul>
+						<li><a href="eletro.html">ELETRÔNICA</a></li>
+						<li><a href="pagode.html">PAGODE</a></li>
+						<li><a href="rap.html">RAP</a></li>
+						<li><a href="rock.html">ROCK</a></li>
+					</ul>
+				</li>
+
+				<li><a href="">LOCAIS</a>
+					<ul>
+						<li><a href="local_live.html">LIVE CURITBA</a></li>
+						<li><a href="local_santa.html">SANTA MARTA</a></li>
+						<li><a href="local_guaira.html">TEATRO GUAÍRA</a></li>
+						<li><a href="local_expotrade.html">EXPOTRADE</a></li>
+						<li><a href="local_villa.html">VICTÓRIA VILLA</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+
+		<center><img src="villa.png" width="30%"></center>
+
+		<section>
+			
+			<figure>
+				
+					<img src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\track.jpeg" width="300px" height="300px">
+					<figcaption>Só track boa<br>
+						02/11<br>
+						12h</figcaption>
+				
+			</figure>
+
+
+			<figure>
+				
+					<img src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\racionais.jpeg" width="300px" height="300px">
+					<figcaption>racionais<br>
+						07/11 <br>
+					    20h</figcaption>
+				
+			</figure>
+
+			<figure>
+				
+					<img src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\dilsinho.jpeg" width="300px" height="300px">
+					<figcaption>dilsinho<br>
+						12/11 <br>
+					    21h</figcaption>
+				
+			</figure>
+
+			<figure>
+				
+					<img src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\exalta.jpeg" width="300px" height="300px">
+					<figcaption>exaltasamba<br>
+						13/11<br>
+						23:45h</figcaption>
+				
+			</figure>
+
+			<figure>
+				
+					<img src="C:\Users\Camila\Documents\PROGRAMAÇÃO\HTML INGRESSO\sabotagem.jpeg" width="300px" height="300px">
+					<figcaption>Sabotage<br>
+						20/11<br>
+						17h</figcaption>
+				
+			</figure>
+
+			
+		</section>
+
+		<center><a href="formulario.html"><img src="comprar.png"></a></center>
+
+		<footer>
+		<img src="logotipo.jpeg" width="10%"><h3>AQUI É SHOW <br>
+		PARA MAIS INFORMAÇÕES LIGUE<br>
+		(041)98765-9087</h3>
+	</footer>
+
+</body>
+</html>

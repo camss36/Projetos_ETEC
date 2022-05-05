@@ -1,0 +1,13 @@
+pag de estilo 
+
+.BT {
+	font-size: 20 px;
+	font-family: verdana;
+	font-weight: 500;
+	cursor: pointer;
+	text-transform: uppercase;
+	border: none;
+	color: blueviolet;
+}
+
+
