@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio ao banco</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Óla, seja bem vindo</h1>
+    <fieldset>
+        <h4>Preencha os dados abaixo:</h4>
+        <form action="salva_banco.php" method="post" name="salvar">
+            <label for="">Nome:</label><br>
+            <input type="text" name="nome" placeholder="Insira seu nome completo">
+            <div id="inner"></div>
+            <label for="">CPF:</label><br>
+            <input type="text" name="cpf" placeholder="Insira somente números">
+            <div id="inner"></div>
+            <br>
+            <button>Enviar</button>
+        </form>
+    </fieldset>
+    
+</body>
+</html>
