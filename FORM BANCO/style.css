@@ -52,6 +52,8 @@ form input:focus{
 }
 
 button{
-    
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
 }
 
