@@ -1,0 +1,57 @@
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(13, 13, 158);
+    font-size: 35px;
+}
+
+h4{
+    text-align: left;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+fieldset{
+    background-color: rgb(255, 246, 127);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 5px 2px rgb(252, 240, 74);
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+}
+
+form label{
+    color: rgb(13, 13, 158);
+    text-transform: uppercase;
+    font-size: 30px;   
+}
+
+form{
+    padding: 10px;
+}
+
+form input{
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: none;
+    background-color: rgb(255, 251, 247);
+}
+
+form input::placeholder{
+    color: rgba(7, 71, 12, 0.699);
+    text-align: center;
+    font-size: 15px;
+}
+
+form input:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: rgb(251, 252, 211);
+}
+
+button{
+    
+}
+
