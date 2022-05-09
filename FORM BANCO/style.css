@@ -1,7 +1,7 @@
 h1{
     text-align: center;
     text-transform: capitalize;
-    color: rgb(13, 13, 158);
+    color: rgb(0, 0, 0);
     font-size: 35px;
 }
 
@@ -14,8 +14,7 @@ h4{
 fieldset{
     background-color: rgb(255, 246, 127);
     border-radius: 5px;
-    border: none;
-    box-shadow: 5px 5px 5px 2px rgb(252, 240, 74);
+    border:solid 5px rgb(252, 240, 74) ;
     width: 30%;
     text-align: center;
     margin-left: 35%;
@@ -37,6 +36,7 @@ form input{
     margin-bottom: 25px;
     border: none;
     background-color: rgb(255, 251, 247);
+    border-radius: 15px;
 }
 
 form input::placeholder{
@@ -52,8 +52,11 @@ form input:focus{
 }
 
 button{
-    background-color: blue;
-    padding: 10px;
+    background-color: rgb(0, 81, 255);
+    padding: 2%;
+    width: 20%;
     font-size: 20px;
+    border: none;
+    border-radius:0px 8px 0px 8px;
 }
 
