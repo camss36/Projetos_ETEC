@@ -3,7 +3,7 @@
 $servidor="localhost";
 $usuario="root";
 $senha= "";
-$database="";
+$database="formu";
 
 $conexão= mysqli_connect($servidor, $usuario, $senha, $database);
 
@@ -15,3 +15,5 @@ if($conexão){
 }
 
 ?>
+ git config --global user.email "you@example.com"
+  git config --global user.name "camss36"
